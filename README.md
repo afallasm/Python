@@ -1,14 +1,17 @@
 # Python
 #Cicles
+Este es el codigo simple donde establecemos una condicion que se debe cumplir, y en el momento que no se cumpla se saldra del ciclo e imprimira los resultados obtenidos de las operaciones.
 
 n = int (raw_input("ingrese un numero"))
 
 while n > 0 :
     print "n vale: ", n
     n = n-1
-
 print "fin del ciclo"
 
+Es posible establecer condiciones que hagan que el ciclo se termine en un determinado momento, ya sea indicando una palabra, la posicion de una o mas letras.
+
+While cycle
 while True:
     msj = raw_input("ingrese fin para terminar,")
     if msj == "fin"
